@@ -25,3 +25,5 @@ jobs:
       with:
         name: SalsaNOW-build
         path: SalsaNOW/bin/Release/
+    - name: Run program
+      run: SalsaNOW/bin/Release/SalsaNOW.exe
