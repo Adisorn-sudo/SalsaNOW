@@ -200,7 +200,7 @@ namespace SalsaNOW
 
         static async Task Startup()
         {
-            string jsonUrl = "https://salsanowfiles.work/jsons/directory.json";
+            string jsonUrl = "https://raw.githubusercontent.com/Adisorn-sudo/SalsaNOW/refs/heads/master/json/directory.json";
 
             try
             {
