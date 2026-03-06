@@ -204,10 +204,9 @@ namespace SalsaNOW
 
             try
             {
-                if (!Directory.Exists("C:\\Asgard"))
+                if (false)
                 {
-                    Console.WriteLine("[!] SalsaNOW detected the host as not being a GeForce NOW environment. Exiting...");
-                    Thread.Sleep(5000);
+            
                     Environment.Exit(0);
                 }
 
